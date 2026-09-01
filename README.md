@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training</h1>
+<h1>Zima<span style="color: #0047AB;">Blue</span>: Evolving Generalizable World Action Models through Scalable Video Pre-training</h1>
 
 <p><a href="https://zimablue-wam.github.io/">Project Page</a> · Paper (Coming Soon)</p>
 
