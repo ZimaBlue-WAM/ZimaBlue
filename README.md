@@ -14,8 +14,6 @@
   </a>
 </p>
 
-<p><strong>Code and model releases are in preparation.</strong></p>
-
 </div>
 
 <p align="center">
@@ -37,27 +35,6 @@ This work makes three contributions:
 - We present **ZimaBlue**, framing video scaling as a practical route toward generalizable World Action Models, and provide empirical evidence that scaling video pre-training significantly improves zero-shot generalization and strengthens performance on challenging manipulation benchmarks.
 - We introduce a three-stage training framework comprising egocentric video pre-training, multi-embodiment video-action mid-training, and target-robot post-training, coupled with a unified state-action representation.
 - We propose a Slow-Fast WAM architecture that enables 30 Hz closed-loop physical robot control.
-
-## Model Zoo
-
-| ID | Dataset | Architecture | Inference Steps | Release Contents | Status |
-|---:|---|---|---:|---|---|
-| 1 | LIBERO-Plus | Slow | 8 / 16 | Training + inference + weights | To be released |
-| 2 | RoboTwin 2.0 | Slow | 8 / 16 | Training + inference + weights | To be released |
-| 3 | RoboCasa365 | Slow | 8 / 16 | Training + inference + weights | To be released |
-| 4 | DROID | Slow | 8 / 16 | Training + inference + weights | To be released |
-| 5 | DROID | Slow-Fast | 8 / 16 | Training + inference + weights | To be released |
-| 6 | DROID | Slow-Fast (Distilled) | 2 | Inference + weights; inference code shared with ID 5 | To be released |
-
-`8 / 16` denotes the undistilled inference configuration. The distilled model uses 2 inference steps and shares the same inference pipeline as the Fast model.
-
-## Release Plan
-
-- [x] Add the technical report and BibTeX entry.
-- [ ] Release post-training scripts, inference code, and checkpoints for the Slow models.
-- [ ] Release training code, inference code, and checkpoints for the Fast model.
-- [ ] Release distilled model checkpoints for the shared Fast-model inference pipeline.
-- [ ] Release evaluation scripts for LIBERO-Plus, RoboTwin 2.0, RoboCasa365, and the DROID-based real-robot suite.
 
 ## Citation
 
